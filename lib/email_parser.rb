@@ -14,18 +14,3 @@ class EmailAddressParser
 end
 
 
-# class EmailAddressParser
-#     attr_accessor :email_addresses
-#     def initialize(email_addresses)
-#         @email_addresses = email_addresses
-#     end
-    
-#     def parse
-#         # new = @email_addresses.split((/[\s,]+/)).uniq
-#         new = @email_addresses.gsub(",", " ").split(" ").uniq
-
-#         new.map do |ele|
-#             ele
-#         end
-#     end
-# end
